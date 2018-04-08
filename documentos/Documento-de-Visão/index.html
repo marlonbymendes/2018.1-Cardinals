@@ -10,6 +10,7 @@
   <link rel="shortcut icon" href="../../img/favicon.ico">
   <title>Documento de Visão - Cardinals</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
@@ -44,155 +45,582 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	<ul class="current">
-	  
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../..">Home</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Documentação de Desenvolvimento</span>
-    <ul class="subnav">
-                <li class=" current">
-                    
-    <a class="current" href="./">Documento de Visão</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#historico-de-revisoes">Histórico de Revisões</a></li>
+      
+
+
+  
     
 
-    <li class="toctree-l3"><a href="#historico-de-revisoes_1">Histórico de Revisões</a></li>
+
+<ul class="" href="/">
+  
+    
+    
+      <li class=" toctree-l1">
+        <a class="" href="/">Home</a>
+      </li>
+</ul>
+
+<!--
+ | This is a hacky way to pass setting from the template generator to the
+ | javascript that drives the dropdown functionality
+-->
+<div style="width: 1px; height: 1px; visibility: none;">
+
+</div>
+
+
+
+  
+    
+    
+    
+    
+    
     
 
-    <li class="toctree-l3"><a href="#sumario">Sumário</a></li>
-    
+  <p class="caption">Documentação de Desenvolvimento</p>
 
-    <li class="toctree-l3"><a href="#1-introducao">1. Introdução</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#11-objetivo">1.1. Objetivo</a></li>
-        
-            <li><a class="toctree-l4" href="#12-escopo">1.2. Escopo</a></li>
-        
-            <li><a class="toctree-l4" href="#13-referencias">1.3. Referências</a></li>
-        
-            <li><a class="toctree-l4" href="#14-visao-geral">1.4. Visão Geral</a></li>
-        
-        </ul>
-    
 
-    <li class="toctree-l3"><a href="#2-posicionamento">2. Posicionamento</a></li>
+<ul class="current" href="documentos/Documento-de-Visão">
+  
     
-        <ul>
-        
-            <li><a class="toctree-l4" href="#21-oportunidade-de-negocio">2.1. Oportunidade de Negócio</a></li>
-        
-            <li><a class="toctree-l4" href="#22-descricao-do-problema">2.2. Descrição do problema</a></li>
-        
-            <li><a class="toctree-l4" href="#23-descricao-da-posicao-do-produto">2.3. Descrição da posição do produto</a></li>
-        
-        </ul>
-    
+      
+<li class="current toctree-l1">
+  <a href="./" title="Documento de Visão"
+      class="current">
+    Documento de Visão
+  </a>
 
-    <li class="toctree-l3"><a href="#3-descricao-dos-envolvidos">3. Descrição dos Envolvidos</a></li>
+  
+  
     
-        <ul>
-        
-            <li><a class="toctree-l4" href="#31-resumo-das-partes-associadas">3.1. Resumo das partes associadas</a></li>
-        
-            <li><a class="toctree-l4" href="#32-resumo-dos-usuarios">3.2. Resumo dos usuários</a></li>
-        
-            <li><a class="toctree-l4" href="#33-ambiente-de-usuario">3.3. Ambiente de usuário</a></li>
-        
-            <li><a class="toctree-l4" href="#34-perfis-das-partes-associadas">3.4 Perfis das partes associadas</a></li>
-        
-            <li><a class="toctree-l4" href="#35-perfis-dos-usuario">3.5. Perfis dos usuário</a></li>
-        
-            <li><a class="toctree-l4" href="#36-necessidades-principais-dos-usuarios">3.6. Necessidades principais dos usuários</a></li>
-        
-            <li><a class="toctree-l4" href="#37-alternativas-e-concorrencia">3.7. Alternativas e Concorrência</a></li>
-        
-        </ul>
     
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <ul class="current subnav">
+    
+      
 
-    <li class="toctree-l3"><a href="#4-visao-geral-do-produto">4. Visão geral do produto</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#41-perspectiva-do-produto">4.1. Perspectiva do produto</a></li>
-        
-            <li><a class="toctree-l4" href="#42-resumo-de-recursos">4.2. Resumo de recursos</a></li>
-        
-        </ul>
-    
+  
+  
+  
 
-    <li class="toctree-l3"><a href="#5-recursos-do-produto">5. Recursos do produto</a></li>
-    
 
-    <li class="toctree-l3"><a href="#6-restricoes">6. Restrições</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#61-restricoes-de-implementacao">6.1 Restrições de Implementação</a></li>
-        
-            <li><a class="toctree-l4" href="#62-restricoes-de-tempo">6.2 Restrições de Tempo</a></li>
-        
-            <li><a class="toctree-l4" href="#63-restricao-do-escopo">6.3 Restrição do Escopo</a></li>
-        
-        </ul>
-    
+  <li class="toctree-l2 toc-item">
+    <a href="#historico-de-revisoes" title="Documento de Visão">Histórico de Revisões</a>
+  </li>
 
-    <li class="toctree-l3"><a href="#7-outros-requisitos-do-produto">7. Outros requisitos do produto</a></li>
     
-        <ul>
-        
-            <li><a class="toctree-l4" href="#71-requisitos-de-usuabilidade">7.1. Requisitos de usuabilidade</a></li>
-        
-            <li><a class="toctree-l4" href="#72-requisitos-do-sistema">7.2. Requisitos do sistema</a></li>
-        
-            <li><a class="toctree-l4" href="#73-requisitos-de-desempenho">7.3. Requisitos de desempenho</a></li>
-        
-            <li><a class="toctree-l4" href="#74-requisitos-de-confiabilidade">7.4. Requisitos de confiabilidade</a></li>
-        
-        </ul>
-    
+      
 
-    <li class="toctree-l3"><a href="#8-referencias-bibliograficas">8. Referências Bibliográficas</a></li>
-    
+  
+  
 
+
+  <li class="toctree-l2 toc-item">
+    <a href="#historico-de-revisoes_1" title="Documento de Visão">Histórico de Revisões</a>
+  </li>
+
+    
+      
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#sumario" title="Documento de Visão">Sumário</a>
+  </li>
+
+    
+      
+
+  
+  
+
+
+  <li class=" toctree-l2">
+    
+      <a href="#1-introducao" title="Documento de Visão"
+          class="">
+        1. Introdução
+      </a>
+    
+    <ul class=" subnav">
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#11-objetivo" title="Documento de Visão">1.1. Objetivo</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#12-escopo" title="Documento de Visão">1.2. Escopo</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#13-referencias" title="Documento de Visão">1.3. Referências</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#14-visao-geral" title="Documento de Visão">1.4. Visão Geral</a>
+  </li>
+
+      
     </ul>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Documento-de-Arquitetura/">Documento de Arquitetura</a>
-                </li>
+  </li>
+
+    
+      
+
+  
+  
+
+
+  <li class=" toctree-l2">
+    
+      <a href="#2-posicionamento" title="Documento de Visão"
+          class="">
+        2. Posicionamento
+      </a>
+    
+    <ul class=" subnav">
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#21-oportunidade-de-negocio" title="Documento de Visão">2.1. Oportunidade de Negócio</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#22-descricao-do-problema" title="Documento de Visão">2.2. Descrição do problema</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#23-descricao-da-posicao-do-produto" title="Documento de Visão">2.3. Descrição da posição do produto</a>
+  </li>
+
+      
     </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Documentação de Gestão</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Termo-de-Abertura-do-Projeto/">Termo de Abertura do Projeto</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Práticas-Ágeis-Adotadas/">Práticas Ágeis</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Monitoramento-de-issues-pelo-Zenhub/">Monitoramento de issues</a>
-                </li>
+  </li>
+
+    
+      
+
+  
+  
+
+
+  <li class=" toctree-l2">
+    
+      <a href="#3-descricao-dos-envolvidos" title="Documento de Visão"
+          class="">
+        3. Descrição dos Envolvidos
+      </a>
+    
+    <ul class=" subnav">
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#31-resumo-das-partes-associadas" title="Documento de Visão">3.1. Resumo das partes associadas</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#32-resumo-dos-usuarios" title="Documento de Visão">3.2. Resumo dos usuários</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#33-ambiente-de-usuario" title="Documento de Visão">3.3. Ambiente de usuário</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#34-perfis-das-partes-associadas" title="Documento de Visão">3.4 Perfis das partes associadas</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#35-perfis-dos-usuario" title="Documento de Visão">3.5. Perfis dos usuário</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#36-necessidades-principais-dos-usuarios" title="Documento de Visão">3.6. Necessidades principais dos usuários</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#37-alternativas-e-concorrencia" title="Documento de Visão">3.7. Alternativas e Concorrência</a>
+  </li>
+
+      
     </ul>
-	    </li>
-          
-        </ul>
+  </li>
+
+    
+      
+
+  
+  
+
+
+  <li class=" toctree-l2">
+    
+      <a href="#4-visao-geral-do-produto" title="Documento de Visão"
+          class="">
+        4. Visão geral do produto
+      </a>
+    
+    <ul class=" subnav">
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#41-perspectiva-do-produto" title="Documento de Visão">4.1. Perspectiva do produto</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#42-resumo-de-recursos" title="Documento de Visão">4.2. Resumo de recursos</a>
+  </li>
+
+      
+    </ul>
+  </li>
+
+    
+      
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#5-recursos-do-produto" title="Documento de Visão">5. Recursos do produto</a>
+  </li>
+
+    
+      
+
+  
+  
+
+
+  <li class=" toctree-l2">
+    
+      <a href="#6-restricoes" title="Documento de Visão"
+          class="">
+        6. Restrições
+      </a>
+    
+    <ul class=" subnav">
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#61-restricoes-de-implementacao" title="Documento de Visão">6.1 Restrições de Implementação</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#62-restricoes-de-tempo" title="Documento de Visão">6.2 Restrições de Tempo</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#63-restricao-do-escopo" title="Documento de Visão">6.3 Restrição do Escopo</a>
+  </li>
+
+      
+    </ul>
+  </li>
+
+    
+      
+
+  
+  
+
+
+  <li class=" toctree-l2">
+    
+      <a href="#7-outros-requisitos-do-produto" title="Documento de Visão"
+          class="">
+        7. Outros requisitos do produto
+      </a>
+    
+    <ul class=" subnav">
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#71-requisitos-de-usuabilidade" title="Documento de Visão">7.1. Requisitos de usuabilidade</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#72-requisitos-do-sistema" title="Documento de Visão">7.2. Requisitos do sistema</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#73-requisitos-de-desempenho" title="Documento de Visão">7.3. Requisitos de desempenho</a>
+  </li>
+
+      
+        
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#74-requisitos-de-confiabilidade" title="Documento de Visão">7.4. Requisitos de confiabilidade</a>
+  </li>
+
+      
+    </ul>
+  </li>
+
+    
+      
+
+  
+  
+
+
+  <li class="toctree-l2 toc-item">
+    <a href="#8-referencias-bibliograficas" title="Documento de Visão">8. Referências Bibliográficas</a>
+  </li>
+
+    
+  </ul>
+
+    
+  
+</li>
+    
+      
+<li class=" toctree-l1">
+  <a href="../Documento-de-Arquitetura/" title="Documento de Arquitetura"
+      class="">
+    Documento de Arquitetura
+  </a>
+
+  
+  
+</li>
+    
+</ul>
+
+<!--
+ | This is a hacky way to pass setting from the template generator to the
+ | javascript that drives the dropdown functionality
+-->
+<div style="width: 1px; height: 1px; visibility: none;">
+
+</div>
+
+
+
+  
+    
+    
+    
+    
+    
+    
+
+  <p class="caption">Documentação de Gestão</p>
+
+
+<ul class="" href="documentos/Termo-de-Abertura-do-Projeto">
+  
+    
+      
+<li class=" toctree-l1">
+  <a href="../Termo-de-Abertura-do-Projeto/" title="Termo de Abertura do Projeto"
+      class="">
+    Termo de Abertura do Projeto
+  </a>
+
+  
+  
+</li>
+    
+      
+<li class=" toctree-l1">
+  <a href="../Práticas-Ágeis-Adotadas/" title="Práticas Ágeis"
+      class="">
+    Práticas Ágeis
+  </a>
+
+  
+  
+</li>
+    
+      
+<li class=" toctree-l1">
+  <a href="../Monitoramento-de-issues-pelo-Zenhub/" title="Monitoramento de issues"
+      class="">
+    Monitoramento de issues
+  </a>
+
+  
+  
+</li>
+    
+</ul>
+
+<!--
+ | This is a hacky way to pass setting from the template generator to the
+ | javascript that drives the dropdown functionality
+-->
+<div style="width: 1px; height: 1px; visibility: none;">
+
+</div>
+
+
       </div>
       &nbsp;
     </nav>
