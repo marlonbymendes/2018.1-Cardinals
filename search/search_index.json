@@ -529,6 +529,21 @@
             "location": "/documentos/Monitoramento-de-issues-pelo-Zenhub/#closed", 
             "text": "Issues que foram fechadas no Github s\u00e3o automaticamente deslocadas para esta pipeline. Issues fechadas representam tarefas completadas.", 
             "title": "Closed"
+        }, 
+        {
+            "location": "/documentos/roadmap-geral/", 
+            "text": "", 
+            "title": "Roadmap Geral"
+        }, 
+        {
+            "location": "/documentos/roadmap-devops/", 
+            "text": "", 
+            "title": "Roadmap DevOps"
+        }, 
+        {
+            "location": "/documentos/roadmap-arquitetura/", 
+            "text": "", 
+            "title": "Roadmap Arquitetura"
         }
     ]
 }

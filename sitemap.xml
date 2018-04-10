@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2018-04-08</lastmod>
+     <lastmod>2018-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,13 +13,13 @@
         
     <url>
      <loc>/documentos/Documento-de-Visão/</loc>
-     <lastmod>2018-04-08</lastmod>
+     <lastmod>2018-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/documentos/Documento-de-Arquitetura/</loc>
-     <lastmod>2018-04-08</lastmod>
+     <lastmod>2018-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -29,19 +29,41 @@
         
     <url>
      <loc>/documentos/Termo-de-Abertura-do-Projeto/</loc>
-     <lastmod>2018-04-08</lastmod>
+     <lastmod>2018-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/documentos/Práticas-Ágeis-Adotadas/</loc>
-     <lastmod>2018-04-08</lastmod>
+     <lastmod>2018-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/documentos/Monitoramento-de-issues-pelo-Zenhub/</loc>
-     <lastmod>2018-04-08</lastmod>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/documentos/roadmap-geral/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/documentos/roadmap-devops/</loc>
+     <lastmod>2018-04-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/documentos/roadmap-arquitetura/</loc>
+     <lastmod>2018-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
