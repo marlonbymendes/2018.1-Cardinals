@@ -3,12 +3,87 @@
         {
             "location": "/", 
             "text": "Bem vindo ao Cardinals\n\n\nO Cardinals \u00e9 uma aplica\u00e7\u00e3o web para gest\u00e3o de equipes \u00e1geis. O objetivo do Cardinals \u00e9 auxiliar membros de equipes \u00e1geis, em particular os gestores, a monitorar o desenvolvimento de projetos a partir de informa\u00e7\u00f5es que est\u00e3o bem pr\u00f3ximas do desenvolvimento: o pr\u00f3prio Git. Os projetos ser\u00e3o monitorados em n\u00edvels de reposit\u00f3rio (issues, branches, pull requests), a n\u00edvel de boas pr\u00e1ticas (testes, an\u00e1lise est\u00e1tica de c\u00f3digo, Docker) e a um n\u00edvel de pessoas (como cada pessoa est\u00e1 contribuindo com o projeto).\n\n\n\nEste \u00e9 um projeto open source \ndispon\u00edvel no GitHub\n.", 
-            "title": "Home"
+            "title": "Sobre"
         }, 
         {
             "location": "/#bem-vindo-ao-cardinals", 
             "text": "O Cardinals \u00e9 uma aplica\u00e7\u00e3o web para gest\u00e3o de equipes \u00e1geis. O objetivo do Cardinals \u00e9 auxiliar membros de equipes \u00e1geis, em particular os gestores, a monitorar o desenvolvimento de projetos a partir de informa\u00e7\u00f5es que est\u00e3o bem pr\u00f3ximas do desenvolvimento: o pr\u00f3prio Git. Os projetos ser\u00e3o monitorados em n\u00edvels de reposit\u00f3rio (issues, branches, pull requests), a n\u00edvel de boas pr\u00e1ticas (testes, an\u00e1lise est\u00e1tica de c\u00f3digo, Docker) e a um n\u00edvel de pessoas (como cada pessoa est\u00e1 contribuindo com o projeto).  Este \u00e9 um projeto open source  dispon\u00edvel no GitHub .", 
             "title": "Bem vindo ao Cardinals"
+        }, 
+        {
+            "location": "/documentos/equipe/", 
+            "text": "Equipe\n\n\nEquipe de Gerenciamento\n\n\n\n\n\n\n\n\nNome\n\n\nEmail\n\n\nGit\n\n\n\n\n\n\n\n\n\n\nAmanda Bezerra\n\n\nemaildaamandasilva@gmail.com\n\n\n@amandabezerra\n\n\n\n\n\n\nLucas Costa\n\n\nLucascostaa73@gmail.com\n\n\n@lucasca73\n\n\n\n\n\n\nMiguel Nery\n\n\nnery.mik@gmail.com\n\n\n@MiguelNery\n\n\n\n\n\n\nMarlon Mendes\n\n\nmarlonciriatico@gmail.com\n\n\n@marlonbymendes\n\n\n\n\n\n\nGuilherme da Luz\n\n\nguilherme.daluz@outlook.com\n\n\n@daluzguilherme\n\n\n\n\n\n\n\n\nEquipe de Desenvolvimento\n\n\n\n\n\n\n\n\nNome\n\n\nEmail\n\n\nGit\n\n\n\n\n\n\n\n\n\n\nLorrany Azevedo\n\n\nlorrany90@gmail.com\n\n\n@lorryaze\n\n\n\n\n\n\nGustavo Duarte\n\n\ngustavoduartemoreira@gmail.com\n\n\n@gustavoduartemoreira\n\n\n\n\n\n\nMateus Augusto\n\n\npalitos.11235@gmail.com\n\n\n@Mateusas3s\n\n\n\n\n\n\nMatheus Gomes\n\n\nmatheusgomesf01@gmail.com\n\n\n@matheusgomesf\n\n\n\n\n\n\nJo\u00e3o Pedro\n\n\nconnorclone201@gmail.com\n\n\n@jpmartins201", 
+            "title": "Equipe"
+        }, 
+        {
+            "location": "/documentos/equipe/#equipe", 
+            "text": "", 
+            "title": "Equipe"
+        }, 
+        {
+            "location": "/documentos/equipe/#equipe-de-gerenciamento", 
+            "text": "Nome  Email  Git      Amanda Bezerra  emaildaamandasilva@gmail.com  @amandabezerra    Lucas Costa  Lucascostaa73@gmail.com  @lucasca73    Miguel Nery  nery.mik@gmail.com  @MiguelNery    Marlon Mendes  marlonciriatico@gmail.com  @marlonbymendes    Guilherme da Luz  guilherme.daluz@outlook.com  @daluzguilherme", 
+            "title": "Equipe de Gerenciamento"
+        }, 
+        {
+            "location": "/documentos/equipe/#equipe-de-desenvolvimento", 
+            "text": "Nome  Email  Git      Lorrany Azevedo  lorrany90@gmail.com  @lorryaze    Gustavo Duarte  gustavoduartemoreira@gmail.com  @gustavoduartemoreira    Mateus Augusto  palitos.11235@gmail.com  @Mateusas3s    Matheus Gomes  matheusgomesf01@gmail.com  @matheusgomesf    Jo\u00e3o Pedro  connorclone201@gmail.com  @jpmartins201", 
+            "title": "Equipe de Desenvolvimento"
+        }, 
+        {
+            "location": "/CONTRIBUTING/", 
+            "text": "Contribuindo com Falko\n\n\nObrigado pelo interesse em colaborar com este projeto. A seguir, algumas orienta\u00e7\u00f5es:\n\n\n\n\nEncontrou um bug?\n\n\nSente falta de uma funcionalidade?\n\n\nDeseja colaborar com o projeto?\n\n\nAdicionando novas funcionalidades\n\n\nResolvendo bugs encontrados na master\n\n\nRealizando releases\n\n\nAdicionando documenta\u00e7\u00e3o externa ao c\u00f3digo\n\n\nEnviando Pull Request\n\n\n\n\n\n\n\n\n Encontrou um bug?\n\n\nReporte um bug abrindo uma issue. Utilize nosso \ntemplate de Issue\n.\nCaso deseje corrigi-lo siga as \norienta\u00e7\u00f5es para colaborar\n.\n\n\n Sente falta de uma funcionalidade?\n\n\nFa\u00e7a sugest\u00f5es ou proponha solu\u00e7\u00f5es abrindo uma issue para esclarecer sua inten\u00e7\u00e3o. Utilize nosso \ntemplate de Issue\n.\n\n\nColaborar com o projeto\n\n\n Adicionando novas funcionalidades\n\n\n\n\nCrie uma branch a partir da branch \ndevelop\n.\n\n\nO nome desta branch deve come\u00e7ar com a palavra \nfeature_\n, seguido do nome da feature, por exemplo: \nfeature_login_with_github\n.\n\n\nAo finalizar seu trabalho, mande um pull request para a \ndevelop\n da upstream.\n\n\n\n\nA partir daqui a equipe de desenvolvedores enviar\u00e3o pull requests da branch \ndevelop\n para a branch \nmaster\n quando uma feature ou um conjunto de features estiverem completas e revisadas. \n\n\n Resolvendo bugs encontrados na master\n\n\n\n\nCrie uma branch a partir da branch \nmaster\n.\n\n\nO nome desta branch deve come\u00e7ar com a palavra \nhotfix_\n, seguido do nome do bug encontrado, por exemplo: \nhotfix_login_crash\n.\n\n\nAo finalizar seu trabalho, mande um pull request para a \nmaster\n da upstream.\n\n\n\n\n Realizando releases\n\n\nQuando a branch \ndevelop\n atingir um novo n\u00edvel de maturidade de features, \u00e9 hora de uma release. Nesta hora \u00e9 necess\u00e1rio criar uma branch a partir da \ndevelop\n, onde esta branch mant\u00e9m o projeto no estado de release, de forma que \ndevelop\n continue no seu fluxo de trabalho independentemente das branches de release.\n\n\n\n\nCrie uma branch a partir da branch \ndevelop\n.\n\n\nO nome desta branch deve come\u00e7ar com a palavra \nrelease_\n, seguido do nome/vers\u00e3o da release, por exemplo \nrelease_v1.03\n.\n\n\nAo finalizar seu trabalho, mande as modifica\u00e7\u00f5es para o remoto. \n\n\n\n\n Adicionando documenta\u00e7\u00e3o externa ao c\u00f3digo\n\n\nBranch exclusiva para arquivos dentro do diret\u00f3rio \ndocs/\n.\n\n\n\n\nCrie uma branch a partir da branch \ndocs\n.\n\n\nO nome desta branch deve come\u00e7ar com a palavra \ndocs_\n, seguido do nome do documento ou trecho do documento a ser produzido, por exemplo: \ndocs_vision_stakeholders\n.\n\n\nAo finalizar seu trabalho, mande um pull request para a \ndocs\n da upstream.\n\n\n\n\nA partir daqui a equipe de desenvolvedores enviar\u00e3o pull requests da branch \ndocs\n para a branch \nmaster\n quando documentos ou trechos de documentos forem finalizados e revisados.\n\n\n Enviando Pull Request\n\n\n\n\nCertifique-se de que a mudan\u00e7a proposta j\u00e1 n\u00e3o foi implementada.\n\n\nUtilize nosso \ntemplate de Pull Request\n.", 
+            "title": "Guia de contribui\u00e7\u00e3o"
+        }, 
+        {
+            "location": "/CONTRIBUTING/#contribuindo-com-falko", 
+            "text": "Obrigado pelo interesse em colaborar com este projeto. A seguir, algumas orienta\u00e7\u00f5es:   Encontrou um bug?  Sente falta de uma funcionalidade?  Deseja colaborar com o projeto?  Adicionando novas funcionalidades  Resolvendo bugs encontrados na master  Realizando releases  Adicionando documenta\u00e7\u00e3o externa ao c\u00f3digo  Enviando Pull Request", 
+            "title": "Contribuindo com Falko"
+        }, 
+        {
+            "location": "/CONTRIBUTING/#colaborar-com-o-projeto", 
+            "text": "", 
+            "title": "Colaborar com o projeto"
+        }, 
+        {
+            "location": "/CODE_OF_CONDUCT/", 
+            "text": "Contributor Covenant Code of Conduct\n\n\nOur Pledge\n\n\nIn the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.\n\n\nOur Standards\n\n\nExamples of behavior that contributes to creating a positive environment include:\n\n\n\n\nUsing welcoming and inclusive language\n\n\nBeing respectful of differing viewpoints and experiences\n\n\nGracefully accepting constructive criticism\n\n\nFocusing on what is best for the community\n\n\nShowing empathy towards other community members\n\n\n\n\nExamples of unacceptable behavior by participants include:\n\n\n\n\nThe use of sexualized language or imagery and unwelcome sexual attention or advances\n\n\nTrolling, insulting/derogatory comments, and personal or political attacks\n\n\nPublic or private harassment\n\n\nPublishing others' private information, such as a physical or electronic address, without explicit permission\n\n\nOther conduct which could reasonably be considered inappropriate in a professional setting\n\n\n\n\nOur Responsibilities\n\n\nProject maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.\n\n\nProject maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.\n\n\nScope\n\n\nThis Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.\n\n\nEnforcement\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at rocha.carla@gmail.com. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.\n\n\nProject maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.\n\n\nAttribution\n\n\nThis Code of Conduct is adapted from the \nContributor Covenant\n, version 1.4, available at \nhttp://contributor-covenant.org/version/1/4", 
+            "title": "C\u00f3digo de conduta"
+        }, 
+        {
+            "location": "/CODE_OF_CONDUCT/#contributor-covenant-code-of-conduct", 
+            "text": "", 
+            "title": "Contributor Covenant Code of Conduct"
+        }, 
+        {
+            "location": "/CODE_OF_CONDUCT/#our-pledge", 
+            "text": "In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.", 
+            "title": "Our Pledge"
+        }, 
+        {
+            "location": "/CODE_OF_CONDUCT/#our-standards", 
+            "text": "Examples of behavior that contributes to creating a positive environment include:   Using welcoming and inclusive language  Being respectful of differing viewpoints and experiences  Gracefully accepting constructive criticism  Focusing on what is best for the community  Showing empathy towards other community members   Examples of unacceptable behavior by participants include:   The use of sexualized language or imagery and unwelcome sexual attention or advances  Trolling, insulting/derogatory comments, and personal or political attacks  Public or private harassment  Publishing others' private information, such as a physical or electronic address, without explicit permission  Other conduct which could reasonably be considered inappropriate in a professional setting", 
+            "title": "Our Standards"
+        }, 
+        {
+            "location": "/CODE_OF_CONDUCT/#our-responsibilities", 
+            "text": "Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.  Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.", 
+            "title": "Our Responsibilities"
+        }, 
+        {
+            "location": "/CODE_OF_CONDUCT/#scope", 
+            "text": "This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.", 
+            "title": "Scope"
+        }, 
+        {
+            "location": "/CODE_OF_CONDUCT/#enforcement", 
+            "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at rocha.carla@gmail.com. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.  Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.", 
+            "title": "Enforcement"
+        }, 
+        {
+            "location": "/CODE_OF_CONDUCT/#attribution", 
+            "text": "This Code of Conduct is adapted from the  Contributor Covenant , version 1.4, available at  http://contributor-covenant.org/version/1/4", 
+            "title": "Attribution"
         }, 
         {
             "location": "/documentos/Documento-de-Vis\u00e3o/", 
@@ -533,17 +608,17 @@
         {
             "location": "/documentos/roadmap-geral/", 
             "text": "", 
-            "title": "Roadmap Geral"
+            "title": "Geral"
         }, 
         {
             "location": "/documentos/roadmap-devops/", 
             "text": "", 
-            "title": "Roadmap DevOps"
+            "title": "DevOps"
         }, 
         {
             "location": "/documentos/roadmap-arquitetura/", 
             "text": "", 
-            "title": "Roadmap Arquitetura"
+            "title": "Arquitetura"
         }
     ]
 }
