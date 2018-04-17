@@ -1,6 +1,10 @@
+# Application related
 Django
 psycopg2-binary
-coverage
 pygithub
-codecov
 mkdocs
+
+# Develop related
+coverage
+codecov
+flake8
